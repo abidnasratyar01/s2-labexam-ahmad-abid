@@ -1,5 +1,5 @@
 var state = {
-    entries: [], 
+    entries: [{name: "ahmad", email: "aasdasda@asd.com"},{"name": "ahmadabid","email": "abidnasratyar01@gmail.com"},{name: "kamrankhan", email: "kamrankhan@gmail.com"},{name: "abdulwahab", email: "abdulwahab@gmail.com"}], 
     count: 0, 
     update: NaN,
     isAddEnabled: true,
