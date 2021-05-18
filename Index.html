@@ -22,7 +22,7 @@
             </table>
         </div>
         <div class="container">
-            <header>Add / Update userform</header>
+            <header>Add / Update user-table-details</header>
             <form action="" id="my-form" class="form">
                 <label for="inputName" class="form-label">UserName:</label>
                 <input type="text" class="form-control" id="inputName" required pattern="\s*?[a-zA-Z]{1,15}\s*?"><br>
@@ -41,7 +41,7 @@
     <ul id="orders">
      
         <template id="staff-template">
-    <li data-id = '{{id}}'>
+    <li data-id = '{{id}}' id="input-title">
 
         <p>
             <strong>Album ID:</strong> 
@@ -59,10 +59,11 @@
     </li>
         </template>
     </ul>
-
+    <div class="addtitle">
     <h4>Add a new Album</h4>
     <p>Title: <input type="text" id="title"></p>
     <button id="add-staff">Add!</button>
+    </div>
     </div>
 
     <script src="./mustache.js"></script>
